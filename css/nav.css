@@ -1,0 +1,102 @@
+
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+    background-color: var(--blue);
+}
+
+/* 왼쪽 */
+.nav_left {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 49px;    
+}
+.nav_left li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 110px;    
+}
+.nav_left li:nth-child(1) {
+    background-color: var(--white);        
+}
+
+.nav_left > a {    
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+li > a {
+    font-size: 12px;
+    color: var(--white);
+}
+
+.nav_left > :nth-child(1) > a {
+    color: var(--blue);
+}
+
+
+
+/* 오른쪽 */
+.nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_right > a {
+    color: var(--white);
+}
+
+.nav_right a span {
+    margin-right: 15px;
+    font-weight: 800;
+}
+
+.nav_right > a:nth-child(5) {
+    border: none;
+}
+
+.nav_right i {
+    display: flex;
+    font-size: 1.3em;
+    margin-right: 3px;    
+}
+
+.nav_right a:nth-child(9) {
+    margin-right: 20px;    
+}
+
+.nav_right_doit {
+    border-right: 0.5px ridge var(--white);       
+    font-size: 11px;
+    font-weight: 800;
+    margin-right: 18px;
+}
+
+/* 검색  */
+.total_search {
+    display: flex;
+    margin-right: 20px;
+}
+
+.total_search form {
+    display: flex;
+}
+.total_search input {
+    padding: 5px;
+    position: relative;
+}
+.total_search a {    
+    color: var(--blue);
+    position: absolute;    
+    right: 24px;
+    top: 16px;
+}
